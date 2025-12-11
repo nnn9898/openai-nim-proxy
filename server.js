@@ -15,12 +15,12 @@ const IFLOW_API_KEY = process.env.IFLOW_API_KEY;
 
 // Model mapping
 const MODEL_MAPPING = {
-  'gpt-3.5-turbo': 'TBStars2-200B-A13B',
-  'gpt-4': 'Qwen3-Coder',
+  'gpt-3.5-turbo': 'qwen3-max',
+  'gpt-4': 'glm-4.6',
   'gpt-4-turbo': 'Kimi-K2',
-  'gpt-4o': 'TBStars2-200B-A13B',
-  'claude-3-opus': 'Qwen3-Coder',
-  'claude-3-sonnet': 'TBStars2-200B-A13B'
+  'gpt-4o': 'deepseek-v3.2',
+  'claude-3-opus': 'deepseek-v3',
+  'claude-3-sonnet': 'tstars2.0'
 };
 
 // Health check
